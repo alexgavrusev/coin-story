@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "plugin:import/errors",
+    "plugin:prettier/recommended"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src", "node_modules"],
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  }
+}
